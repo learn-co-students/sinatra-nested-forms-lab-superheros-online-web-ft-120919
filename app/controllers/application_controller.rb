@@ -21,6 +21,7 @@ class App < Sinatra::Base
       @team.add_hero(@hero_3)
 
       @heroes = @team.heroes 
+      #binding.pry 
 
       erb :'team'
     end #do 
